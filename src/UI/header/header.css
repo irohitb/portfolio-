@@ -1,0 +1,36 @@
+.navbar {
+  z-index: 500 !important;
+  color: white !important;
+
+}
+
+.navbar:link {
+  z-index: 500 !important;
+  color: white !important;
+}
+
+.navbar-light .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(255,255,255,.8);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-weight: 200;
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(225,225,225) !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover  {
+  font-family: 'Montserrat', sans-serif;
+  color: #39b54a !important;
+
+}
+
+.nature-logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-right:  25px !important;
+}
+
+

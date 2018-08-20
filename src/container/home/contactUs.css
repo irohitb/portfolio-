@@ -1,0 +1,95 @@
+.main-contactUs-d {
+    background-color: black;
+    margin-top: 80px;
+    opacity: 0.9;
+}
+
+.contactus-margin {
+    z-index: 2;
+}
+
+.contact-us-content2 {
+    color: white;
+}
+
+.contact-us-content1 {
+    padding-top: 50px;
+}
+
+
+.form-control {
+    font-size: 16px;
+    width: 100%;
+    background-color: inherit;
+    border: 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    outline: none !important;
+    margin-bottom: .9rem;
+} 
+
+.form-control:focus {
+    color:  white;
+    font-weight: 50%;
+    width: 100%;
+    background-color: inherit;
+    border: 0px;
+    border-bottom: 1px solid #39b54a !important;
+    outline: none !important;
+    outline-color: none !important;
+    margin-bottom: .9rem;
+}
+
+*:focus {
+    outline: none !important;
+    outline-color: none !important;
+}
+
+input:focus {
+    outline: none !important;
+    outline-color: none !important;
+ }
+
+ .side-padding {
+     margin-top: 80px;
+     margin-left: 5%;
+ }
+
+ .btn-contact-submit {
+     margin-top: 15px;
+     background: #39b54a;
+     color: white;
+    width: 100%;
+    margin-bottom: 40px;
+
+ }
+
+ .btn-contact-submit:focus {
+    background: #008000;
+    color: white;
+    width: 100%;
+}
+
+.btn-contact-submit:hover {
+    background: #008000;
+    color: white;
+    width: 100%;
+}
+
+.contact-info  {
+    color: white;
+    text-align: center;
+
+}
+
+.contact-info-address {
+    text-align: center;
+    margin-top: 40px;
+    color: #008000;
+}
+
+.contact-para-address {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    
+  }

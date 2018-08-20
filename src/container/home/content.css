@@ -1,0 +1,56 @@
+.desktop-main-boxes {
+    margin-top: 100vh;
+}
+
+.content-service-heading {
+   
+    text-align: center;
+}
+/* 
+.underline {
+    text-decoration: underline;
+} */
+.content-1 {
+    font-family: "montserrat-bold", sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.333;
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+    color: #39b54a;
+}
+
+.content-2 {
+    font-family: "montserrat-medium", sans-serif;
+    line-height: 1.255;
+    color: #000000;
+    margin-top: 20px;
+    font-size: 2em;
+    font-weight: 100;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.boxes-image-image {
+    padding: 10px;
+    width: 80px;
+    height: 90px;
+}
+
+.main-sub-box {
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.content-heading-b {
+  
+    margin-top: 20px;
+    color: #000000;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: .18rem;
+}
+
+.content-para-b {
+    color: #808080;
+}
