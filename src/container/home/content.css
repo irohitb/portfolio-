@@ -54,3 +54,16 @@
 .content-para-b {
     color: #808080;
 }
+
+.class-green{
+    color: #39b54a !important;
+    background: inherit;
+    border: none;
+}
+
+.class-green:hover{
+    color: #39b54a !important;
+    background: inherit;
+    border: none;
+    text-decoration: underline;
+}
