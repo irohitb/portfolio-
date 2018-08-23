@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './openingContent.css';
-import ScrollAnimation from './scrollAnimation.js'
+import ScrollAnimation from './../../UI/ScrollAnimation/scrollAnimation.js'
 class openingContent extends Component {
 
 
