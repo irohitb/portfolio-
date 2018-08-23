@@ -1,0 +1,24 @@
+.service-opening-content-image {
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    width: 100%;
+    height: 500px;
+
+}
+
+.service-opening-content-heading {
+    color: white;
+    margin-top: 250px;
+    margin-left: 5%;
+}
+
+.opening-content-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 500px;
+}

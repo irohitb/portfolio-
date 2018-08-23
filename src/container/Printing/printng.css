@@ -1,0 +1,12 @@
+.service-boxes-margin {
+    margin-top: 520px;
+    margin-bottom: 200px;
+    
+}
+
+.borderline {
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 50px;
+    border-top: 1px solid black;
+}

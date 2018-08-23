@@ -1,0 +1,32 @@
+.service-left-main{
+  
+    margin-top: 100px;
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+}
+
+.service-right-main{
+
+    margin-top: 100px;
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+}
+
+.para-text {
+    color: #808080;
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 40px;
+   
+}
+
+.service-images {
+    width: 90%;
+    border-radius: 20px;
+    height: 350px;
+}
+
+.text-class {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
