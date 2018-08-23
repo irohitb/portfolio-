@@ -1,15 +1,13 @@
 .service-left-main{
   
     margin-top: 100px;
-    margin-left: 4.5%;
-    margin-right: 4.5%;
+
 }
 
 .service-right-main{
 
     margin-top: 100px;
-    margin-left: 4.5%;
-    margin-right: 4.5%;
+  
 }
 
 .para-text {
@@ -26,7 +24,6 @@
     height: 350px;
 }
 
-.text-class {
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+.text-heading {
+    margin-top: 30px;
 }

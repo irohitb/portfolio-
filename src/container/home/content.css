@@ -1,5 +1,10 @@
+
+
+
 .desktop-main-boxes {
     margin-top: 100vh;
+    max-width: 100% !important;
+    overflow: hidden;
 }
 
 .content-service-heading {
@@ -26,11 +31,14 @@
     margin-top: 20px;
     font-size: 2em;
     font-weight: 100;
-    margin-left: 8%;
-    margin-right: 8%;
-}
 
+}
+.boxes-image{
+    max-width: 100%;
+}
 .boxes-image-image {
+    display:block;
+    margin:auto;
     padding: 10px;
     width: 80px;
     height: 90px;
@@ -42,8 +50,9 @@
 }
 
 .content-heading-b {
-  
-    margin-top: 20px;
+    width: 100% !important;
+  text-align: center;
+    margin-top: 30px;
     color: #000000;
     font-style: normal;
     font-weight: normal;
@@ -52,10 +61,13 @@
 }
 
 .content-para-b {
+    text-align: center;
     color: #808080;
 }
 
 .class-green{
+    width: 100% !important;
+    text-align: center !important;
     color: #39b54a !important;
     background: inherit;
     border: none;
