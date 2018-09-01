@@ -1,5 +1,6 @@
 import React from 'react';
 import './contactUs.css'
+import GMaps from './../GoogleMpas/googleMaps.js'
 
 const contactUs = (props) => {
     return (
@@ -10,7 +11,7 @@ const contactUs = (props) => {
                     <h2 className="content-service-heading content-2 contact-us-content2">Drop us an email about enquires, complaints, proposals or just say hello</h2>
                     <div className="side-padding">
                         <div className="row">
-                            <div className="col-md-5 col-lg-5">
+                            <div className="col-md-4 col-lg-4">
                                 <form>
                                     <div class="form-group">
                                         <input type="name" class="form-control" id="exampleInputName"  placeholder="Your Name" />
@@ -28,19 +29,22 @@ const contactUs = (props) => {
                                 </form>
                             </div>
 
-                            <div className="col-md-7 col-lg-7">
+                            <div className="col-md-4 col-lg-4">
                                         <h5 class="contact-info"> Contact info</h5>
                                         <h5 className="contact-info-address"> Where to find us?</h5>
                                         <p className="contact-para-address"> Nature Life Trad Cont and Services W.L.L <br/> Doha, Qatar </p>
                                         <h5 className="contact-info-address"> Email Us at?</h5>
                                         <p className="contact-para-address"> info@naturelifeservices.com </p>
                                         <h5 className="contact-info-address"> Give us a call at</h5>
-                                        <p className="contact-para-address"> 70390100 / 70046021 </p>
-
-
-
+                                        <p className="contact-para-address"> +97470390100 / +97470046021 </p>
                            
                             </div>
+
+                             <div className="col-md-4 col-lg-4">
+                                <div className="GoogleMaps">
+                                   <GMaps />
+                                </div>
+                             </div>
 
                         </div>
                     </div>
