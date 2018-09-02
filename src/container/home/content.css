@@ -79,3 +79,11 @@
     border: none;
     text-decoration: underline;
 }
+
+@media (max-width:767px) { 
+    .desktop-main-boxes {
+        margin-top: 620px;
+        max-width: 100% !important;
+        overflow: hidden;
+    }
+}

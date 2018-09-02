@@ -28,13 +28,13 @@ class manPowerSupply extends Component {
                         <div className="borderline"> </div>
                         <ServiceBoxesLeft 
                         heading="Accprding to requirments"
-                        text="Temporary/ Contract, Temp-to Hire, Direct Hire, Project Temporary- Flexible, short-term staff additions or replacements. Temp-to-Hire- Transition to full-time employee on hours-worked basis. Direct Hire- Staff recruitment and placement on a fee-for-service basis. Positions start from entry level. Direct Hire- Staff recruitment and placement on a fee-service basis. Positions range from entry to executive level."
+                        text="•Temporary/ Contract, •Temp-to Hire, •Direct Hire, •Project Temporary- Flexible, •short-term staff additions or replacements. •Temp-to-Hire- Transition to full-time employee on hours-worked basis. •Direct Hire- Staff recruitment and placement on a fee-for-service basis. •Positions start from entry level. •Direct Hire- Staff recruitment and placement on a fee-service basis. •Positions range from entry to executive level."
                         image="manpowere.jpeg" />
 
 
                         <ServiceBoxesRight 
                         heading="Skilled and Experienced Categories "
-                        text="•	Electrician Scaffolders Technician • Mason • Carpenter  • Steel Fixer  • General Helpers •	Plumber •	Foreman•	 Cleaners/Housemaid •	Welders Riggers•	 Drivers •	Security Guard •	Machine Operators •	Fire Fighters•	 Safety Officer•	 Office / Tea boy•	 Clerk •	Supervisor•	 Cashier •	Secretary•	 Document Controller •	Receptionist etc….
+                        text="•Electrician Scaffolders Technician •Mason •Carpenter  •Steel Fixer  •General Helpers •Plumber •Foreman •Cleaners/Housemaid •Welders Riggers •Drivers •Security Guard •Machine Operators •Fire Fighters •Safety Officer •Office / Tea boy •Clerk  •Supervisor •Cashier •Secretary •Document Controller •Receptionist etc….
                         " 
                         image="cworking.jpg" />
     

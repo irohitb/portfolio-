@@ -69,13 +69,13 @@ class openingContent extends Component {
       <div>
         <div class="overlay">
             <div class="openingContent" id="header1"></div>
-            <div className="d-sm-block d-md-none">
-              <h2 class="opening-content-header-m">Welcome to Nature Life website <br/>We expertise in providing services for 
+            <div className="d-block d-md-none">
+              <h2 class="opening-content-header-m">Welcome to Nature Life website <br/> <p className="sub-span-class">We expertise in providing services for 
                   <span
                   class="txt-rotate"
                   data-period="2000"
                   data-rotate='[ " Printing", " Car Wash", " Man Power Supply"]'>
-                  </span>
+                  </span> </p>
               </h2>
             </div>
             <div className="d-none d-md-block">
