@@ -27,7 +27,9 @@ class content extends Component  {
                                 <div className="main-sub-box">
                                     <div className="row">
                                         <div className="col-md-12 boxes-image">
+                                        <a href="/printing">
                                             <img src={Printing} className="boxes-image-image" />
+                                            </a>
                                         </div>
                                     <h4 className="content-heading-b" value="printing"> Printing Solutions </h4>
                                         <p class="content-para-b"> With our advance Hardware, Software and Team of experts, we provide the best printing solution to our customers and business Partners at an unbeatable low price
@@ -40,7 +42,9 @@ class content extends Component  {
                                 <div className="main-sub-box">
                                     <div className="row">
                                         <div className="col-md-12 boxes-image">
+                                        <a href="">
                                             <img src={Carwash} className="boxes-image-image" />
+                                            </a>
                                         </div>
                                     <h4 className=" content-heading-b"> Quality Car Wash </h4>
                                         <p class="content-para-b"> From using the latest technology to providing door to door car wash services, we are commited to make your car shine the brightest in the area at an exceptionally affordable price.
@@ -53,7 +57,9 @@ class content extends Component  {
                                 <div className="main-sub-box">
                                     <div className="row">
                                         <div className="col-md-12 boxes-image">
+                                        <a href="/ManpowerSupply">
                                             <img src={Manpower} className="boxes-image-image" />
+                                            </a>
                                         </div>
                                         <h4 className=" content-heading-b"> Man Power Supply </h4>
                                         <p class="content-para-b"> We supply our Manpower on hourly basis for various roles in Industries as per their requirements. We give you liberity to chose from highly skilled to semi-skilled to unskilled. 
