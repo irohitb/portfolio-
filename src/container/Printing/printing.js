@@ -18,7 +18,7 @@ class printing extends Component {
         return (
                 <div> 
                      <ServiceOpeningContent 
-                     image="p-banner.jpg" 
+                     image="dPrinting1.jpg" 
                      heading="Printing Services" />
                     <div className="service-boxes-margin">
                         <div className="container"> 

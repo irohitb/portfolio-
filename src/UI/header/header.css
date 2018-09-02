@@ -1,6 +1,6 @@
 .navbar {
   z-index: 500 !important;
-  color: white !important;
+
 
 }
 
@@ -12,25 +12,31 @@
 .navbar-light .navbar-brand {
     font-family: 'Montserrat', sans-serif;
     color: rgba(255,255,255,.8);
+    text-align: center;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  font-weight: 200;
+  font-size: 18px;
+  font-weight: 500;
   font-family: 'Montserrat', sans-serif;
   color: rgba(225,225,225) !important;
+  text-align: center;
+
 }
 
 .navbar-light .navbar-nav .nav-link:hover  {
   font-family: 'Montserrat', sans-serif;
   color: #39b54a !important;
-
+  text-align: center;
 }
+
+
+
 
 .nature-logo {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     margin-top: 15px;
-    margin-right:  25px !important;
 }
 
 .navbar-toggler .navbar-light .navbar-dark{
@@ -47,13 +53,15 @@
 @media (min-width: 768px) {
   .navbar .navbar-nav {
    
-    margin-left: 30%;
+ 
     float: none;
     vertical-align: top;
   }
   
   .navbar .navbar-collapse {
+
     text-align: center;
   }
   
   }
+

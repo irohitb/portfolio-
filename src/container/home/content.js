@@ -42,14 +42,14 @@ class content extends Component  {
                                 <div className="main-sub-box">
                                     <div className="row">
                                         <div className="col-md-12 boxes-image">
-                                        <a href="">
+                                        <a href="/carwash">
                                             <img src={Carwash} className="boxes-image-image" />
                                             </a>
                                         </div>
                                     <h4 className=" content-heading-b"> Quality Car Wash </h4>
                                         <p class="content-para-b"> From using the latest technology to providing door to door car wash services, we are commited to make your car shine the brightest in the area at an exceptionally affordable price.
                                         </p>
-                                        <a className="content-para-b class-green" href="#" >Click here to check all our services</a>
+                                        <a className="content-para-b class-green" href="/CarWash" >Click here to check all our services</a>
                                     </div>
                                 </div>
                             </div>
@@ -61,7 +61,7 @@ class content extends Component  {
                                             <img src={Manpower} className="boxes-image-image" />
                                             </a>
                                         </div>
-                                        <h4 className=" content-heading-b"> Man Power Supply </h4>
+                                        <h4 className=" content-heading-b"> ManPower Supply </h4>
                                         <p class="content-para-b"> We supply our Manpower on hourly basis for various roles in Industries as per their requirements. We give you liberity to chose from highly skilled to semi-skilled to unskilled. 
                                         </p>
                                         <a className="content-para-b class-green" name="manpower" href="/ManpowerSupply">Click here to check all our services</a>

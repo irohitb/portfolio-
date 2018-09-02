@@ -12,7 +12,7 @@ const contactUs = (props) => {
                     <div className="side-padding">
                         <div className="row">
                             <div className="col-md-4 col-lg-4">
-                                <form>
+                                <form className="border1">
                                     <div class="form-group">
                                         <input type="name" class="form-control" id="exampleInputName"  placeholder="Your Name" />
                                     </div>
@@ -31,17 +31,17 @@ const contactUs = (props) => {
 
                             <div className="col-md-4 col-lg-4">
                                         <h5 class="contact-info"> Contact info</h5>
-                                        <h5 className="contact-info-address"> Where to find us?</h5>
-                                        <p className="contact-para-address"> Nature Life Trad Cont and Services W.L.L <br/> Doha, Qatar </p>
+                                        <h5 className="contact-info-address"> Address</h5>
+                                        <p className="contact-para-address"> Nature Life Trad Cont and Services W.L.L <br/> Salwa Road, Retaj Bldg, Doha-Qatar. </p>
                                         <h5 className="contact-info-address"> Email Us at?</h5>
-                                        <p className="contact-para-address"> info@naturelifeservices.com </p>
+                                        <p className="contact-para-address" > <a href="mailto:info@naturelifeservices.com"> info@naturelifeservices.com</a> </p>
                                         <h5 className="contact-info-address"> Give us a call at</h5>
-                                        <p className="contact-para-address"> +97470390100 / +97470046021 </p>
+                                        <p className="contact-para-address"><a href="callto:+97470390100"> +97470390100 </a>/ <a href="callto:+97470046021">+97470046021  </a> </p>
                                         <h5 className="contact-info-address"> Social Media </h5>
                                         <p className="contact-info-address">
-                                            <a href="https://twitter.com/spaceyfi" class="twitter a-dec"><i class="fa fa-twitter-square ci" aria-hidden="true"></i></a>
-                                            <a href="https://www.facebook.com/spaceyfi/" class="facebook a-dec">  <i class="fa fa-facebook-square ci" aria-hidden="true"></i></a>
-                                            <a href="https://www.facebook.com/spaceyfi/" class="google a-dec">  <i class="fa fa-instagram ci" aria-hidden="true"></i></a>
+                                            {/* <a href="https://twitter.com/spaceyfi" class="twitter a-dec"><i class="fa fa-twitter-square ci" aria-hidden="true"></i></a> */}
+                                            <a href="https://www.facebook.com/naturelifeservices" class="facebook a-dec" target="_blank">  <i class="fa fa-facebook-square ci" aria-hidden="true"></i></a>
+                                            <a href="https://www.instagram.com/naturelifeservices/" class="google a-dec" target="_blank">  <i class="fa fa-instagram ci" aria-hidden="true"></i></a>
                                             </p>
                            
                             </div>

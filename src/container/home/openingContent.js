@@ -74,7 +74,7 @@ class openingContent extends Component {
                   <span
                   class="txt-rotate"
                   data-period="2000"
-                  data-rotate='[ " Printing", " Car Wash", " Man Power Supply"]'>
+                  data-rotate='[ " Printing", " Car Wash", " Manpower Supply"]'>
                   </span> </p>
               </h2>
             </div>
@@ -84,7 +84,7 @@ class openingContent extends Component {
                   <span
                   class="txt-rotate"
                   data-period="2000"
-                  data-rotate='[ " Printing", " Car Wash", " Man Power Supply"]'>
+                  data-rotate='[ " Printing", " Car Wash", " Manpower Supply"]'>
                   </span> 
               </p>
             
