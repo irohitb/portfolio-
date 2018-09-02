@@ -8,23 +8,8 @@ import Printing from './../../images/Prinitng.png'
 
 
 class content extends Component  {
-    state = {
-        carwash: false, 
-        manpower: false,
-        printing: false
-    }
 
-    contentTodisplay = (event) => {
-        event.preventDefault()
-        Object.keys(this.state).forEach(key => {
-            if(event.target.name == key) {
-               this.setState({[event.target.name]: true})
-            } else {
-                this.setState({[key]: false})
-            }
-            console.log(this.state)
-        })
-    }
+
     
 
     render () {
@@ -47,7 +32,7 @@ class content extends Component  {
                                     <h4 className="content-heading-b" value="printing"> Printing Solutions </h4>
                                         <p class="content-para-b"> With our advance Hardware, Software and Team of experts, we provide the best printing solution to our customers and business Partners at an unbeatable low price
                                         </p>
-                                        <button className="content-para-b class-green" name="printing" onClick={this.contentTodisplay}>Click here to check out our services</button>
+                                        <a className="content-para-b class-green" name="printing" href="/printing">Click here to check out our services</a>
                                     </div>
                                 </div>
                             </div>
@@ -60,7 +45,7 @@ class content extends Component  {
                                     <h4 className=" content-heading-b"> Quality Car Wash </h4>
                                         <p class="content-para-b"> From using the latest technology to providing door to door car wash services, we are commited to make your car shine the brightest in the area at an exceptionally affordable price.
                                         </p>
-                                        <button className="content-para-b class-green" name="carwash" onClick={this.contentTodisplay}>Click here to check all our services</button>
+                                        <a className="content-para-b class-green" href="#" >Click here to check all our services</a>
                                     </div>
                                 </div>
                             </div>
@@ -73,7 +58,7 @@ class content extends Component  {
                                         <h4 className=" content-heading-b"> Man Power Supply </h4>
                                         <p class="content-para-b"> We supply our Manpower on hourly basis for various roles in Industries as per their requirements. We give you liberity to chose from highly skilled to semi-skilled to unskilled. 
                                         </p>
-                                        <button className="content-para-b class-green" name="manpower" onClick={this.contentTodisplay}>Click here to check all our services</button>
+                                        <a className="content-para-b class-green" name="manpower" href="/ManpowerSupply">Click here to check all our services</a>
                                     </div>
                                 </div>
                             </div>

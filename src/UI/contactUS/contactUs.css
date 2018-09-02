@@ -83,14 +83,14 @@ input:focus {
 
 .contact-info-address {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 30px;
     color: #008000;
 }
 
 .contact-para-address {
     color: white;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 10px;
     
   }
 
@@ -98,3 +98,18 @@ input:focus {
       width: 100%;
       height: 100px;;
   }
+
+  .ci {
+      font-size: 28px;
+      text-align: center;
+      color: white;
+      margin-left: 5px;
+  }
+
+  .ci:hover {
+    font-size: 28px;
+    text-align: center;
+    color: #008000;
+    margin-left: 5px;
+  
+}
