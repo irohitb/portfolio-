@@ -11,9 +11,9 @@ const footer = (props) => {
 
                 <div className="center-footer">
                 <div className="container">
-                    <p className="footer-text-s"> Made with    &ensp;
+                    <p className="footer-text-s"> Developed  with &ensp;
                      <i class="fa fa-heart cf" aria-hidden="true"></i>
-                     &ensp;  <a href="http://www.spaceyfi.com"> By  Spaceyfi.com </a></p>
+                     &ensp;  By <a href="http://www.spaceyfi.com">   Spaceyfi.com </a></p>
                      </div>
                 </div>
         
