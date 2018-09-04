@@ -1,0 +1,26 @@
+
+
+.cf {
+    font-size: 10px;
+    text-align: center;
+    color: red;
+
+}
+
+.footer-text-s  {
+    
+    font-size: 14px;
+    color: white;
+}
+
+.center-footer{
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color:#323232;
+    opacity: 0.9;
+    padding-top: 10px;
+    
+    padding-bottom: 1px; 
+
+}

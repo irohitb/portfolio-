@@ -6,6 +6,7 @@ import ContactUS from './UI/contactUS/contactUs.js'
 import Printing from './container/Printing/printing.js'
 import  ManpowerSupply from './container/ManpowerSupply/manpowersupply.js'
 import  CarWash from './container/CarWash/carwash.js'
+import Footer from './UI/footer/footer.js';
 
 class Routes extends Component{
     render(){
@@ -21,6 +22,7 @@ class Routes extends Component{
 
           </Switch>
           <ContactUS />
+          <Footer />
             </div>
 
           </BrowserRouter>

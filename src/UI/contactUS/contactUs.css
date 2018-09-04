@@ -2,7 +2,7 @@
     background-color: black;
     margin-top: 80px;
     opacity: 0.9;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
 }
 
 .contactus-margin {
@@ -53,7 +53,7 @@ input:focus {
 
  .side-padding {
      margin-top: 80px;
-     margin-left: 5%;
+
  }
 
  .btn-contact-submit {
@@ -141,6 +141,6 @@ input:focus {
   }
 
   .border1 {
-      border: 1px solid white;
+ 
       
   }
